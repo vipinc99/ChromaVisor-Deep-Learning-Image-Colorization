@@ -1,0 +1,5 @@
+The RGB colour space serves as the foundation for the majority of today's visuals. The goal of the project is to create a RGB-based picture from a black and white photograph. The convolutional blocks will be employed to do this. Each block consists of two or three convolutional layers, a Rectified Linear Unit (ReLU), and a Batch Normalization layer at the end. In the black and white picture, we will attempt to forecast the blue-yellow and red-green components.
+In order to find patterns in a picture, we use a network of tiny learnable filters called convolutional layers. Layers near the input layer search for straightforward patterns like edges and outlines, whereas layers near the output layer search for more complicated patterns.
+
+
+A Convolution Neural Network is being used where the initial layer comprises the input image combined with a large number of filters and these are all stacked-up into a single image. This combination results in creation of a large number of feature maps. It contains a lot of layers, where output from each layer is fed as the input for the next layer.
